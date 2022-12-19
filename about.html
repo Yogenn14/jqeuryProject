@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tourism Malaysia</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+      <script defer src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script defer src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      
+      
+       
+        
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+    </script>
+
+        
+    </head>
+    <body>
+        <style>
+              * {
+      
+      border: 0;
+      box-sizing: border-box;
+      transition: 0.2s;
+    }
+    body {
+                animation: fadeInAnimation ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+            }
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
+        
+     
+      
+        <div data-role="page" style="background-color: #563b7b;">
+        <div data-role="header" data-theme="b" class="h" style="background-image: linear-gradient(to right, #FFA69E, #861657);">
+          <h1><img src="logotour.png" style="display: flex; align-items: center; justify-content: center; width: 50%; margin: auto; margin-top: -7%;"></h1>
+            
+          
+            <a href="#leftpanel3" data-role="button" data-inline="true" data-icon="bars" data-mini="true" 
+            class="ui-link ui-btn ui-icon-bars ui-btn-icon-left ui-shadow ui-corner-all ui-btn-active" role="button"
+            style="background-color: transparent; border:0px;  width: 5%; height: 60px; transform: scale(1.5);
+             position: relative; left: 2%; display: flex; justify-content: center; align-items: center; margin-top: -8%;"
+             class="ui-button ui-shadow ui-corner-all ui-button-inline ui-mini ui-widget ui-button-inherit">
+            </a>
+        
+        </div>
+
+   
+        <div data-role="main" class="ui-content">
+            <h1 style="color: white; text-align: center; font-size: 60px;">Get In Touch</h1>
+        
+            
+            
+            <div class="container">
+                <div class="item-list">
+                  <div class="item item-1" >
+                    <div class="img"><a href="javascript:;">
+                        <div class="like"><i class="fa fa-heart" aria-hidden="true"></i></div></a>
+                      <div class="img-content"></div>
+                    </div>
+                    <div class="social"><a href="https://www.facebook.com/malaysia.travel/" target="_blank">
+                        <div class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></div></a><a href="https://www.instagram.com/malaysia.truly.asia/?hl=en" target="_blank">
+                        <div class="ig"><i class="fa fa-instagram" aria-hidden="true"></i></div></a><a href="https://twitter.com/TourismMalaysia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                        <div class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></div>
+                    <div class="text-container" style="background-image: linear-gradient(to right, #E975A8, #726CF8); color: white; font-size: 25px;">
+                      <h2 style="font-size: 30px; text-align: center;">MALAYSIA TRULY ASIA</h2>
+                      <div class="content">
+                        <p style="font-size: 27px;">The Tourist Development Corporation of Malaysia (TDC) was established on 10 August 1972 as an agency under the former Ministry of Trade and Industry by an Act of Parliament.
+
+                            With the inception of the Ministry of Culture, Arts and Tourism on 20 May 1987, TDC was moved to this new ministry; 
+                            and became the Malaysia Tourism Promotion Board (MTPB) through the 
+                            Malaysia Tourism Promotion Board Act 1992. Popularly known as Tourism Malaysia, its full focus is on promoting Malaysia domestically 
+                            and internationally.Our Objectives is to
+                            promote Malaysia as an outstanding tourist destination,
+                            showcase Malaysia's unique wonders, attractions and cultures,
+                            enhance Malaysia's share market for meetings, incentives, conventions and exhibitions (MICE).
+                            .<br>
+                           
+                        </p>
+                      </div>
+                      <div class="readmore">
+                        <h3>show more</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+             
+      <h1 style="color: white; text-align: center; font-size: 60px;">Your Feedback Matters</h1>
+    
+        <div style="display: box; width: 80%;
+        justify-content: center;
+        align-items: center;
+        position: relative; left: 10%; border-radius: 25px; background-image: linear-gradient(to right, #E975A8, #726CF8); height: 500px; ">
+        <br>
+        <form method = "post" action = "" id="feedbackForm">
+          <div style="width: 70%; display:box; justify-content: center; align-items:center; left: 14%; position: relative;">
+                <label for="user">
+              Username:
+          </label>
+          <input type="text" name="username" id="username" class="form-control">
+  
+
+      
+        <br>
+          <label for="text-basic">Email:</label>
+        <input type="email" name="email" id="email" required value="" style="background-color: white; color: black;">
+        
+       
+        <br><br>
+        <label for="textarea">Feedback:</label>
+        <textarea cols="40" rows="12" name="textarea" id="textarea" style="background-color: white; color: black;" required></textarea>
+        <br>
+        </div>
+        <div style="width: 30%; display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin: auto;">
+        <input id="submit" type="submit" value="Submit" onclick="sub()">
+        <input type = "reset" value = "Reset" data-inline = "true" data-corner = "true"  >    
+                </div>
+    </form> 
+   
+
+    <script type="text/javascript">
+      function sub()
+      {
+      if(document.getElementById("username").value == "")
+      alert("Please enter your name");
+      else if(document.getElementById("email").value == "") 
+      alert("Please enter a email");
+      else if(document.getElementById("textarea").value == "")
+      alert("Please enter a message");
+      else
+      alert("Thank you for your feedback!");
+      }
+      </script>
+
+    </div>
+       
+
+          
+
+      <div data-role="panel" id="leftpanel3" data-position="left" data-display="overlay" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left ui-panel-display-overlay ui-body-a ui-panel-animate ui-panel-open" bis_skin_checked="1">
+
+        <div class="ui-panel-inner" bis_skin_checked="1"><div class="panel-content" bis_skin_checked="1">
+            <a href="home.html" id="h" ><button class="ui-btn ui-icon-home ui-btn-icon-left ui-shadow ui-corner-all">Home</button></a>
+            <a href="index.html" id="i" ><button class="ui-btn ui-icon-grid ui-btn-icon-left ui-shadow ui-corner-all">Gallery</button></a>
+            <a href="about.html" id="a" ><button class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow ui-corner-all">About Us</button></a>
+            <a href="#demo-links" data-rel="close" style="width: 100%;" data-role="button" data-theme="a" data-icon="delete" data-inline="true" class="ui-button ui-shadow ui-corner-all ui-button-inline ui-widget ui-button-a" role="button">
+            <span class="ui-button-icon ui-icon delete"></span><span class="ui-button-icon-space"></span>Close panel</a>
+           
+      
+          </div></div><!-- /content wrapper for padding -->
+      </div>
+      <br><br><br>
+      <br><br><br>
+      
+     
+    
+      
+
+    </div>
+        </div>
+    </div>
+
+        <div data-role="footer" data-position="fixed" data-theme="b">
+          <div><h3 style="color: white;">Footer</h3></div>
+            
+        </div>
+
+        
+    </div>
+    <script>
+      $(document).ready(function(){   
+      $("#h").click(function () {     
+      document.location.href = "./home.html"; 
+    });
+    });
+    
+      $(document).ready(function(){   
+      $("#i").click(function () {     
+        document.location.href = "./index.html";
+      });
+      });
+    
+      $(document).ready(function(){   
+      $("#a").click(function () {     
+        document.location.href = "./about.html";
+      });
+      });
+    
+    </script>
+   
+        <script>
+            $(function(){
+  var getTxt = $('.content p').text();
+  var realTxt = [getTxt]
+  var textCol = [getTxt]
+  var wordsCount = textCol[0].split(' ').length;
+  var words = textCol[0].split(' ');
+  var wordsLimit = 70;
+  var limitCol;
+  
+  $('.readmore h3').click(function(){
+  if ( $(this).text() === "show more") {
+      $('.content p').text(realTxt.join(' '));
+      $('.content').addClass('scroll');
+      $(this).text('show less');
+      $('.item').addClass('showfull');
+    } else {
+      $('.content p').text(limitCol);
+       $(this).text('show more');
+      $('.item').removeClass('showfull');
+    }
+});
+  
+  if (wordsLimit <= wordsCount) {
+    words.splice(wordsLimit, wordsCount - wordsLimit);
+    words = words.join(' ');
+    $('.content p').text(words + '...');
+    limitCol = $('.content p').text();
+  }
+  
+  $('.like').click(function(){
+    $(this).toggleClass('clicked');
+  });
+  
+  
+  
+  
+  
+});
+        </script>
+
+
+
+<script>
+   $(".accordion_tab").click(function(){
+    $(".accordion_tab").each(function(){
+      $(this).parent().removeClass("active");
+      $(this).removeClass("active");
+    });
+    $(this).parent().addClass("active");
+    $(this).addClass("active");
+});
+
+</script>
+
+
+
+        
+    </body>
+    
+</html>
